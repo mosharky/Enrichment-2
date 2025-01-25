@@ -68,6 +68,7 @@ mode = "fancy"
 				snowy_enderman = true
 
 			[light_sources.settings.entities.mutantmonsters]
+				mutant_creeper = true
 				mutant_skeleton = true
 				mutant_zombie = true
 
