@@ -1,0 +1,87 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				cow = true
+				fox = true
+				slime = true
+				pig = true
+				skeleton = true
+				bat = true
+				rabbit = true
+				zombie = true
+				drowned = true
+				sheep = true
+				player = true
+				item = true
+				salmon = true
+				tnt_minecart = true
+				zombie_villager = true
+				furnace_minecart = true
+				item_frame = true
+				minecart = true
+				glow_squid = true
+				witch = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.naturalist]
+				boar = true
+				bass = true
+				snail = true
+				bluejay = true
+				coral_snake = true
+
+			[light_sources.settings.entities.crittersandcompanions]
+				dragonfly = true
+				koi_fish = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				snowy_enderman = true
+
+			[light_sources.settings.entities.ecologics]
+				penguin = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				copper_golem = true
+				rascal = true
+
+			[light_sources.settings.entities.iceandfire]
+				pixie = true
+				ice_dragon = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
