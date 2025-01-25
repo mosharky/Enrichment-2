@@ -23,6 +23,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.minecraft]
 				chicken = true
+				axolotl = true
 				cow = true
 				fox = true
 				slime = true
@@ -65,6 +66,10 @@ mode = "fancy"
 
 			[light_sources.settings.entities.endermanoverhaul]
 				snowy_enderman = true
+
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_skeleton = true
+				mutant_zombie = true
 
 			[light_sources.settings.entities.ecologics]
 				penguin = true
