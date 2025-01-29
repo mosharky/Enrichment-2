@@ -21,3 +21,10 @@ global.fullRemovals = [
     'galosphere:deepslate_silver_ore',
     /(galosphere|iceandfire):silver_(ingot|nugget|block|ore)/
 ]
+
+global.armorTypes = [
+    'helmet',
+    'chestplate',
+    'leggings',
+    'boots'
+]

@@ -36,6 +36,7 @@ mode = "fancy"
 				sheep = true
 				player = true
 				item = true
+				stray = true
 				salmon = true
 				tnt_minecart = true
 				zombie_villager = true
@@ -65,6 +66,7 @@ mode = "fancy"
 				illusioner = true
 
 			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
 				snowy_enderman = true
 
 			[light_sources.settings.entities.mutantmonsters]
@@ -84,9 +86,13 @@ mode = "fancy"
 				copper_golem = true
 				rascal = true
 
+			[light_sources.settings.entities.knightquest]
+				ratman = true
+
 			[light_sources.settings.entities.iceandfire]
 				pixie = true
 				ice_dragon = true
+				troll = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
