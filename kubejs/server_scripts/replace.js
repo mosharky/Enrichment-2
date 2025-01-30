@@ -15,7 +15,12 @@ function replacements(e) {
 
     let glassToAmethystRecipeItems = [
         'minecraft:beacon',
-        'minecraft:end_crystal'
+        'minecraft:end_crystal',
+        'ironchests:crystal_chest_upgrade',
+        'ironchests:crystal_chest',
+        'ironchests:crystal_barrel',
+        'ae2:chest',
+        'ae2:condenser'
     ].forEach((item) => {
         e.replaceInput({ output: item }, 'minecraft:glass', 'minecraft:amethyst_shard')
     })
