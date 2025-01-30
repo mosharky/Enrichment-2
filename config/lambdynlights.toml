@@ -93,6 +93,7 @@ mode = "fancy"
 				player = true
 				illusioner = true
 				pufferfish = true
+				trident = true
 				villager = true
 				wolf = true
 				skeleton_horse = true
@@ -138,6 +139,10 @@ mode = "fancy"
 			[light_sources.settings.entities.snowyspirit]
 				gingerbread_golem = true
 				sled = true
+
+			[light_sources.settings.entities.weeping_angels]
+				generator = true
+				weeping_angel = true
 
 			[light_sources.settings.entities.illagerinvasion]
 				alchemist = true
@@ -246,6 +251,9 @@ mode = "fancy"
 				dark_oak_creeper = true
 				desert_creeper = true
 				dripstone_creeper = true
+
+			[light_sources.settings.entities.cave_dweller]
+				cave_dweller = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
