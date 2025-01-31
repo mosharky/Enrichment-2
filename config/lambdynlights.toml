@@ -22,77 +22,133 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
 				chicken = true
 				axolotl = true
+				bee = true
+				donkey = true
 				cow = true
 				fox = true
+				tropical_fish = true
 				slime = true
 				pig = true
 				skeleton = true
+				iron_golem = true
 				bat = true
+				frog = true
+				husk = true
 				rabbit = true
+				cat = true
 				zombie = true
+				armor_stand = true
 				drowned = true
 				sheep = true
 				player = true
+				pufferfish = true
+				dolphin = true
 				item = true
 				stray = true
+				turtle = true
+				villager = true
+				skeleton_horse = true
 				salmon = true
 				tnt_minecart = true
 				zombie_villager = true
 				furnace_minecart = true
 				item_frame = true
+				horse = true
 				minecart = true
+				cave_spider = true
 				glow_squid = true
 				witch = true
+				cod = true
 				glow_item_frame = false
 				squid = true
 				spider = true
 				creeper = true
 				enderman = true
 
-			[light_sources.settings.entities.naturalist]
-				boar = true
-				bass = true
-				snail = true
-				bluejay = true
-				coral_snake = true
-
 			[light_sources.settings.entities.crittersandcompanions]
 				dragonfly = true
+				leaf_insect = true
 				koi_fish = true
-
-			[light_sources.settings.entities.majruszsdifficulty]
-				illusioner = true
+				dumbo_octopus = true
+				sea_bunny = true
 
 			[light_sources.settings.entities.endermanoverhaul]
 				cave_enderman = true
 				snowy_enderman = true
+				swamp_enderman = true
+				badlands_enderman = true
 
 			[light_sources.settings.entities.mutantmonsters]
 				mutant_creeper = true
 				mutant_skeleton = true
 				mutant_zombie = true
 
-			[light_sources.settings.entities.ecologics]
-				penguin = true
-
 			[light_sources.settings.entities.creeperoverhaul]
 				snowy_creeper = true
+				bamboo_creeper = true
+				ocean_creeper = true
 				dripstone_creeper = true
+				jungle_creeper = true
 				cave_creeper = true
-
-			[light_sources.settings.entities.friendsandfoes]
-				copper_golem = true
-				rascal = true
 
 			[light_sources.settings.entities.knightquest]
 				ratman = true
+				ghosty = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
 
 			[light_sources.settings.entities.iceandfire]
 				pixie = true
 				ice_dragon = true
+				lightning_dragon = true
+				hippocampus = true
+				hippogryph = true
 				troll = true
+				dragon_multipart = true
+				fire_dragon = true
+
+			[light_sources.settings.entities.hamsters]
+				hamster = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				alligator = true
+				bluejay = true
+				coral_snake = true
+				cardinal = true
+				vulture = true
+				catfish = true
+				boar = true
+				robin = true
+				bass = true
+				tortoise = true
+				butterfly = true
+				duck = true
+				bear = true
+				sparrow = true
+				lizard = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				tank = true
+
+			[light_sources.settings.entities.ecologics]
+				squirrel = true
+				penguin = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				copper_golem = true
+				mauler = true
+				crab = true
+				rascal = true
+
+			[light_sources.settings.entities.dungeonnowloading]
+				spawner_carrier = true
+				chaos_spawner = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
