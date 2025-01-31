@@ -65,6 +65,7 @@ mode = "fancy"
 				ender_dragon = true
 				evoker = true
 				glow_squid = true
+				warden = true
 				glow_item_frame = false
 				squid = true
 				snowball = true
@@ -151,6 +152,9 @@ mode = "fancy"
 				basher = true
 				necromancer = true
 				marauder = true
+
+			[light_sources.settings.entities.galosphere]
+				sparkle = true
 
 			[light_sources.settings.entities.hamsters]
 				hamster = true
