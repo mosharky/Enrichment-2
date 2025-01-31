@@ -57,12 +57,17 @@ function itemTags(e) {
             e.add(`enrichment2:tier_2_${armorType}`, `${set}_${armorType}`)
         })
     })
+    // helmets
     e.add(`enrichment2:tier_1_helmet`, `vanityslots:familiar_wig`)
     e.add(`enrichment2:tier_1_helmet`, `snowdownessentails:leather_hat`)
+
     e.add(`enrichment2:tier_2_helmet`, `snowdownessentails:iron_hat`)
     e.add(`enrichment2:tier_2_helmet`, `snowdownessentails:gold_hat`)
+
+    // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
     e.add(`enrichment2:tier_1_chestplate`, `snowdownessentails:leather_chest_belt`)
+
     e.add(`enrichment2:tier_2_chestplate`, `create:copper_backtank`)
     e.add(`enrichment2:tier_2_chestplate`, `endermanoverhaul:badlands_hood`)
     e.add(`enrichment2:tier_2_chestplate`, `endermanoverhaul:savanna_hood`)
@@ -70,14 +75,21 @@ function itemTags(e) {
     e.add(`enrichment2:tier_2_chestplate`, `malum:soul_hunter_robe`)
     e.add(`enrichment2:tier_2_chestplate`, `snowdownessentails:iron_chest_belt`)
     e.add(`enrichment2:tier_2_chestplate`, `snowdownessentails:gold_chest_belt`)
+
+    // leggings
     e.add(`enrichment2:tier_1_leggings`, `vanityslots:familiar_pants`)
     e.add(`enrichment2:tier_1_leggings`, `snowdownessentails:leather_belt`)
+
     e.add(`enrichment2:tier_2_leggings`, `snowdownessentails:iron_belt`)
     e.add(`enrichment2:tier_2_leggings`, `snowdownessentails:gold_belt`)
+
+    // boots
     e.add(`enrichment2:tier_1_boots`, `vanityslots:familiar_sneakers`)
     e.add(`enrichment2:tier_1_boots`, `snowdownessentails:leather_boots`)
+
     e.add(`enrichment2:tier_2_boots`, `snowdownessentails:iron_boots`)
     e.add(`enrichment2:tier_2_boots`, `snowdownessentails:gold_boots`)
+
     e.remove('c:iron_ingots', ['betterend:thallasium_ingot', 'betternether:cincinnasite_ingot'])
 }
 
