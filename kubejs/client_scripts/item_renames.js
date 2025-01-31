@@ -10,5 +10,6 @@ ClientEvents.lang("en_us", e => {
         e.renameItem(`knightquest:wither_${armorType}`, `Executioner ${uppercaseFirst(armorType)}`)
         e.renameItem(`knightquest:chainmail_${armorType}2`, `Shackled ${uppercaseFirst(armorType)}`)
         e.renameItem(`immersive_armors:slime_${armorType}`, `Slimier ${uppercaseFirst(armorType)}`)
+        e.renameItem(`plentyofarmors:copper_${armorType}`, `Refined Copper ${uppercaseFirst(armorType)}`)
     })
 })

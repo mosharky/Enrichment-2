@@ -138,9 +138,9 @@
 			"asyncSearchPartitionSize": 100,
 			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
-			"tagSearch": "PREFIX",
+			"tagSearch": "ALWAYS",
 			"identifierSearch": "ALWAYS",
-			"modSearch": "PREFIX"
+			"modSearch": "ALWAYS"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.

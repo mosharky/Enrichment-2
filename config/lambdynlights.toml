@@ -50,6 +50,7 @@ mode = "fancy"
 				stray = true
 				turtle = true
 				villager = true
+				wolf = true
 				skeleton_horse = true
 				salmon = true
 				tnt_minecart = true
@@ -82,6 +83,7 @@ mode = "fancy"
 				badlands_enderman = true
 
 			[light_sources.settings.entities.mutantmonsters]
+				mutant_enderman = true
 				mutant_creeper = true
 				mutant_skeleton = true
 				mutant_zombie = true
@@ -97,8 +99,10 @@ mode = "fancy"
 
 			[light_sources.settings.entities.knightquest]
 				ratman = true
+				eldknight = true
 				ghosty = true
 				swampman = true
+				eldbomb = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -117,10 +121,12 @@ mode = "fancy"
 				hamster = true
 
 			[light_sources.settings.entities.naturalist]
+				deer = true
 				snail = true
 				alligator = true
 				bluejay = true
 				coral_snake = true
+				snake = true
 				cardinal = true
 				vulture = true
 				catfish = true
@@ -133,10 +139,14 @@ mode = "fancy"
 				bear = true
 				sparrow = true
 				lizard = true
+				finch = true
 
 			[light_sources.settings.entities.majruszsdifficulty]
 				illusioner = true
 				tank = true
+
+			[light_sources.settings.entities.ribbits]
+				ribbit = true
 
 			[light_sources.settings.entities.ecologics]
 				squirrel = true
