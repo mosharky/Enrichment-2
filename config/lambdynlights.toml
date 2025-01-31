@@ -214,6 +214,11 @@ mode = "fancy"
 				spawner_carrier = true
 				chaos_spawner = true
 
+			[light_sources.settings.entities.tridents_n_stuff]
+				farshot_trident_entity = true
+				frenzied_trident_entity = true
+				stellaris_entity = true
+
 			[light_sources.settings.entities.yungscavebiomes]
 				sand_snapper = true
 				ice_cube = true
