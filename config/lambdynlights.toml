@@ -87,6 +87,7 @@ mode = "fancy"
 				mutant_zombie = true
 
 			[light_sources.settings.entities.creeperoverhaul]
+				swamp_creeper = true
 				snowy_creeper = true
 				bamboo_creeper = true
 				ocean_creeper = true
@@ -97,6 +98,7 @@ mode = "fancy"
 			[light_sources.settings.entities.knightquest]
 				ratman = true
 				ghosty = true
+				swampman = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -142,6 +144,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.friendsandfoes]
 				copper_golem = true
+				glare = true
 				mauler = true
 				crab = true
 				rascal = true
