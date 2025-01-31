@@ -82,9 +82,10 @@ function itemTags(e) {
     })
     let tier4Sets = [
         'minecraft:diamond',
-        'betternether:flaming_ruby',
+        'dungeonnowloading:spawner_chestplate',
         'immersive_armors:steampunk',
         'immersive_armors:heavy',
+        'immersive_armors:prismarine',
         'aquamirae:terrible',
         'mutantmonsters:mutant_skeleton',
         'botania:elementium',
@@ -103,9 +104,50 @@ function itemTags(e) {
         'iceandfire:armor_black',
         'twilightforest:arctic',
         'twilightforest:yeti',
+        'twilightforest:steeleaf',
+        'twilightforest:knightmetal',
+        'legacies_and_legends:ward',
+        'malum:malignant_stronghold',
+        'oreganized:electrum',
+        'plentyofarmors:frozen_diamond',
+        'plentyofarmors:echo',
+        'plentyofarmors:amethyst',
+        'plentyofarmors:ender'
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_4_${armorType}`, `${set}_${armorType}`)
+        })
+    })
+    let tier5Sets = [
+        'betternether:flaming_ruby',
+        'betterend:crystalite',
+        'iceandfire:tide_blue',
+        'iceandfire:tide_bronze',
+        'iceandfire:tide_deepblue',
+        'iceandfire:tide_green',
+        'iceandfire:tide_purple',
+        'iceandfire:tide_red',
+        'iceandfire:tide_teal',
+        'twilightforest:phantom',
+        'knightquest:apple',
+        'knightquest:bamboo',
+        'knightquest:blaze',
+        'knightquest:bow',
+        'knightquest:creeper',
+        'knightquest:deepslate',
+        'knightquest:evoker',
+        'knightquest:path',
+        'knightquest:silver',
+        'knightquest:skeleton',
+        'knightquest:spider',
+        'knightquest:strawhat',
+        'knightquest:zombie',
+        'knightquest:witch',
+        'knightquest:polar',
+        'knightquest:shinobi',
+    ].forEach(set => {
+        global.armorTypes.forEach(armorType => {
+            e.add(`enrichment2:tier_5_${armorType}`, `${set}_${armorType}`)
         })
     })
     // helmets
@@ -121,6 +163,8 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:quetzalcoatl_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:centurion_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:o_yoroi_armor_head`)
+    e.add(`enrichment2:tier_4_helmet`, `armoroftheages:pharaoh_armor_head`)
+    e.add(`enrichment2:tier_4_helmet`, `snowdownessentails:diamond_hat`)
 
     // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
@@ -140,6 +184,8 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:quetzalcoatl_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:centurion_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:o_yoroi_armor_chest`)
+    e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:pharaoh_armor_chest`)
+    e.add(`enrichment2:tier_4_chestplate`, `snowdownessentails:diamond_chest_belt`)
 
     // leggings
     e.add(`enrichment2:tier_1_leggings`, `vanityslots:familiar_pants`)
@@ -154,6 +200,8 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:quetzalcoatl_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:centurion_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:o_yoroi_armor_legs`)
+    e.add(`enrichment2:tier_4_leggings`, `armoroftheages:pharaoh_armor_legs`)
+    e.add(`enrichment2:tier_4_leggings`, `snowdownessentails:diamond_belt`)
 
     // boots
     e.add(`enrichment2:tier_1_boots`, `vanityslots:familiar_sneakers`)
@@ -168,6 +216,8 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:quetzalcoatl_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:centurion_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:o_yoroi_armor_feet`)
+    e.add(`enrichment2:tier_4_boots`, `armoroftheages:pharaoh_armor_feet`)
+    e.add(`enrichment2:tier_4_boots`, `snowdownessentails:diamond_boots`)
 
     e.remove('c:iron_ingots', ['betterend:thallasium_ingot', 'betternether:cincinnasite_ingot'])
 }
