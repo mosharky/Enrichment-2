@@ -60,3 +60,15 @@ ItemEvents.rightClicked('mutantmonsters:endersoul_hand', e => {
         })
     }
 })
+
+const dragonGems = [
+    'iceandfire:summoning_crystal_fire',
+    'iceandfire:summoning_crystal_ice',
+    'iceandfire:summoning_crystal_lightning',
+].forEach(crystal => {
+    ItemEvents.rightClicked(crystal, e => {
+        e.server.scheduleInTicks(0, (callback) => {
+            applyItemlistCooldown(e.player, dragonGems, 6000)
+        })
+    })
+})
