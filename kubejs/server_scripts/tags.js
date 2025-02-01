@@ -173,7 +173,40 @@ function itemTags(e) {
     })
     let tier6Sets = [
         'betterend:crystalite',
-        'botania:terrasteel'
+        'betterend:aeternium',
+        'botania:terrasteel',
+        'mythicupgrades:aquamarine',
+        'mythicupgrades:sapphire',
+        'mythicupgrades:jade',
+        'mythicupgrades:peridot',
+        'mythicupgrades:topaz',
+        'mythicupgrades:ruby',
+        'mythicupgrades:ametrine',
+        'plentyofarmors:ender_netherite',
+        'plentyofarmors:marine_diamond',
+        'twilightforest:fiery',
+        'knightquest:bamboo_blue',
+        'knightquest:bamboo_green',
+        'knightquest:bat',
+        'knightquest:horn',
+        'knightquest:dragon',
+        'knightquest:enderman',
+        'knightquest:forze',
+        'knightquest:hollow',
+        'knightquest:nether',
+        'knightquest:veteran',
+        'knightquest:phantom',
+        'knightquest:sea',
+        'knightquest:shield',
+        'knightquest:silverfish',
+        'knightquest:warlord',
+        'knightquest:pirate',
+        'knightquest:conquistador',
+        'knightquest:husk',
+        'knightquest:wither',
+        'knightquest:squire',
+        'knightquest:skulk',
+        'majruszsdifficulty:enderium'
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_6_${armorType}`, `${set}_${armorType}`)
@@ -198,6 +231,9 @@ function itemTags(e) {
 
     e.add(`enrichment2:tier_5_helmet`, `armoroftheages:anubis_armor_head`)
     e.add(`enrichment2:tier_5_helmet`, `ad_astra:netherite_space_helmet`)
+    e.add(`enrichment2:tier_5_helmet`, `snowdownessentails:netherite_hat`)
+    
+    e.add(`enrichment2:tier_6_helmet`, `armoroftheages:raijin_armor_head`)
 
     // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
@@ -224,6 +260,9 @@ function itemTags(e) {
     e.add(`enrichment2:tier_5_chestplate`, `armoroftheages:anubis_armor_chest`)
     e.add(`enrichment2:tier_5_chestplate`, `ad_astra:netherite_space_suit`)
     e.add(`enrichment2:tier_5_chestplate`, `create:netherite_backtank`)
+    e.add(`enrichment2:tier_5_chestplate`, `snowdownessentails:netherite_chest_belt`)
+    
+    e.add(`enrichment2:tier_6_chestplate`, `armoroftheages:raijin_armor_chest`)
 
     // leggings
     e.add(`enrichment2:tier_1_leggings`, `vanityslots:familiar_pants`)
@@ -244,6 +283,9 @@ function itemTags(e) {
 
     e.add(`enrichment2:tier_5_leggings`, `armoroftheages:anubis_armor_legs`)
     e.add(`enrichment2:tier_5_leggings`, `ad_astra:netherite_space_pants`)
+    e.add(`enrichment2:tier_5_leggings`, `snowdownessentails:netherite_belt`)
+    
+    e.add(`enrichment2:tier_6_leggings`, `armoroftheages:raijin_armor_legs`)
 
     // boots
     e.add(`enrichment2:tier_1_boots`, `vanityslots:familiar_sneakers`)
@@ -264,6 +306,9 @@ function itemTags(e) {
 
     e.add(`enrichment2:tier_5_boots`, `armoroftheages:anubis_armor_feet`)
     e.add(`enrichment2:tier_5_boots`, `ad_astra:netherite_space_boots`)
+    e.add(`enrichment2:tier_5_boots`, `snowdownessentails:netherite_boots`)
+    
+    e.add(`enrichment2:tier_6_boots`, `armoroftheages:raijin_armor_feet`)
 
     e.remove('c:iron_ingots', ['betterend:thallasium_ingot', 'betternether:cincinnasite_ingot'])
 }
