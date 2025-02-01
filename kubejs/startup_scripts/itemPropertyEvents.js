@@ -40,4 +40,24 @@ ItemEvents.modification(event => {
             item.maxStackSize = 48
         }) 
     })
+
+    const oneStackItems = [
+        'minecraft:enchanted_golden_apple',
+        'diamond_apples:enchanted_diamond_apple',
+        'immersive_weathering:enchanted_golden_moss_clump',
+        'xtraarrows:notch_apple_arrow',
+        'minecraft:beacon',
+        'minecraft:heart_of_the_sea',
+        'minecraft:conduit',
+        'minecraft:heartstone',
+        'guardianexpansion:prismarine_converter',
+        'amethyst_imbuement:golden_heart',
+        'amethyst_imbuement:spellcasters_focus',
+        'amethyst_imbuement:crystalline_heart',
+        'amethyst_imbuement:crystalline_core'
+    ].forEach(thing => {
+        event.modify(thing, item => {
+            item.maxStackSize = 1
+        }) 
+    })
 })

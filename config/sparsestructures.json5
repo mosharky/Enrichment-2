@@ -284,10 +284,6 @@
       "factor": 5
     },
     {
-      "structure": "ati_structures:deepslate_keep",
-      "factor": 5
-    },
-    {
       "structure": "ati_structures:dojo",
       "factor": 5
     },
@@ -322,6 +318,10 @@
     {
       "structure": "iceandfire:hydra_cave",
       "factor": 5
+    },
+    {
+      "structure": "ati_structures:deepslate_keep",
+      "factor": 10
     },
     {
       "structure": "iceandfire:pixie_village",

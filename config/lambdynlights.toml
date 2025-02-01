@@ -158,12 +158,18 @@ mode = "fancy"
 				generator = true
 				weeping_angel = true
 
+			[light_sources.settings.entities.imbued_gear]
+				celestial_trident = true
+				celestial_trident_avatar = true
+
 			[light_sources.settings.entities.illagerinvasion]
 				alchemist = true
 				provoker = true
 				archivist = true
 				basher = true
 				necromancer = true
+				inquisitor = true
+				firecaller = true
 				marauder = true
 
 			[light_sources.settings.entities.galosphere]
@@ -200,6 +206,7 @@ mode = "fancy"
 				vulture = true
 				bass = true
 				giraffe = true
+				lizard_tail = true
 				elephant = true
 				finch = true
 
@@ -243,6 +250,9 @@ mode = "fancy"
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
+
+			[light_sources.settings.entities.amethyst_core]
+				missile_entity = true
 
 			[light_sources.settings.entities.crittersandcompanions]
 				dragonfly = true
@@ -316,6 +326,9 @@ mode = "fancy"
 				lich = true
 				charged_ender_pearl = true
 				soul_star = true
+
+			[light_sources.settings.entities.astro]
+				gravity_bomb_down = true
 
 			[light_sources.settings.entities.charm]
 				moobloom = true
