@@ -5,6 +5,19 @@
       "name": "Legitch",
       "uniqueId": "64906813-adac-4aa9-8ac9-f25dbb677102"
     },
+    "time": 1738385284146,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/n45PvoVVA3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Legitch",
+      "uniqueId": "64906813-adac-4aa9-8ac9-f25dbb677102"
+    },
     "time": 1738385001910,
     "type": "Profiler",
     "data": {

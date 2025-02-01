@@ -86,8 +86,10 @@ mode = "fancy"
 				zombified_piglin = true
 				piglin = true
 				blaze = true
+				endermite = true
 				cat = true
 				zombie = true
+				ender_pearl = true
 				guardian = true
 				ghast = true
 				sheep = true
@@ -110,20 +112,29 @@ mode = "fancy"
 				spider = true
 
 			[light_sources.settings.entities.endermanoverhaul]
+				hammerhead_pet_enderman = true
 				savanna_enderman = true
 				ice_spikes_enderman = true
 				flower_fields_enderman = true
 				desert_enderman = true
 				coral_enderman = true
+				ancient_pearl = true
 				end_enderman = true
+				summoner_pearl = true
+				corrupted_pearl = true
 				crimson_forest_enderman = true
+				warped_pearl = true
+				bubble_pearl = true
 				cave_enderman = true
 				snowy_enderman = true
 				dark_oak_enderman = true
+				crimson_pearl = true
 				scarab = true
 				end_islands_enderman = true
 				swamp_enderman = true
 				badlands_enderman = true
+				axolotl_pet_enderman = true
+				pet_enderman = true
 
 			[light_sources.settings.entities.underground_jungle]
 				mossy_skeleton = true
@@ -302,6 +313,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.bosses_of_mass_destruction]
 				lich = true
+				charged_ender_pearl = true
 				soul_star = true
 
 			[light_sources.settings.entities.charm]
