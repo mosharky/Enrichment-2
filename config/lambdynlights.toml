@@ -104,6 +104,7 @@ mode = "fancy"
 				ghosty = true
 				swampman = true
 				eldbomb = true
+				lizzy = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true

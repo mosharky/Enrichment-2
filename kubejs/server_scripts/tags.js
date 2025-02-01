@@ -212,6 +212,22 @@ function itemTags(e) {
             e.add(`enrichment2:tier_6_${armorType}`, `${set}_${armorType}`)
         })
     })
+    let tier7Sets = [
+        'plentyofarmors:stardusite',
+    ].forEach(set => {
+        global.armorTypes.forEach(armorType => {
+            e.add(`enrichment2:tier_7_${armorType}`, `${set}_${armorType}`)
+        })
+    })
+    let tier8Sets = [
+        'iceandfire:dragonsteel_fire',
+        'iceandfire:dragonsteel_ice',
+        'iceandfire:dragonsteel_lightning',
+    ].forEach(set => {
+        global.armorTypes.forEach(armorType => {
+            e.add(`enrichment2:tier_8_${armorType}`, `${set}_${armorType}`)
+        })
+    })
     // helmets
     e.add(`enrichment2:tier_1_helmet`, `vanityslots:familiar_wig`)
     e.add(`enrichment2:tier_1_helmet`, `snowdownessentails:leather_hat`)
@@ -234,6 +250,9 @@ function itemTags(e) {
     e.add(`enrichment2:tier_5_helmet`, `snowdownessentails:netherite_hat`)
     
     e.add(`enrichment2:tier_6_helmet`, `armoroftheages:raijin_armor_head`)
+
+    e.add(`enrichment2:tier_7_helmet`, `armoroftheages:holy_armor_head`)
+    e.add(`enrichment2:tier_7_helmet`, `ad_astra:jet_suit_helmet`)
 
     // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
@@ -264,6 +283,9 @@ function itemTags(e) {
     
     e.add(`enrichment2:tier_6_chestplate`, `armoroftheages:raijin_armor_chest`)
 
+    e.add(`enrichment2:tier_7_chestplate`, `armoroftheages:holy_armor_chest`)
+    e.add(`enrichment2:tier_7_chestplate`, `ad_astra:jet_suit`)
+
     // leggings
     e.add(`enrichment2:tier_1_leggings`, `vanityslots:familiar_pants`)
     e.add(`enrichment2:tier_1_leggings`, `snowdownessentails:leather_belt`)
@@ -287,6 +309,9 @@ function itemTags(e) {
     
     e.add(`enrichment2:tier_6_leggings`, `armoroftheages:raijin_armor_legs`)
 
+    e.add(`enrichment2:tier_7_leggings`, `armoroftheages:holy_armor_legs`)
+    e.add(`enrichment2:tier_7_leggings`, `ad_astra:jet_suit_pants`)
+
     // boots
     e.add(`enrichment2:tier_1_boots`, `vanityslots:familiar_sneakers`)
     e.add(`enrichment2:tier_1_boots`, `snowdownessentails:leather_boots`)
@@ -309,6 +334,9 @@ function itemTags(e) {
     e.add(`enrichment2:tier_5_boots`, `snowdownessentails:netherite_boots`)
     
     e.add(`enrichment2:tier_6_boots`, `armoroftheages:raijin_armor_feet`)
+
+    e.add(`enrichment2:tier_7_boots`, `armoroftheages:holy_armor_feet`)
+    e.add(`enrichment2:tier_7_boots`, `ad_astra:jet_suit_boots`)
 
     e.remove('c:iron_ingots', ['betterend:thallasium_ingot', 'betternether:cincinnasite_ingot'])
 }
