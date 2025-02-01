@@ -75,6 +75,7 @@ function itemTags(e) {
         'plentyofarmors:emerald',
         'twilightforest:naga',
         'plentyofarmors:ironwood',
+        'enva:titanium'
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_3_${armorType}`, `${set}_${armorType}`)
@@ -206,7 +207,6 @@ function itemTags(e) {
         'knightquest:wither',
         'knightquest:squire',
         'knightquest:skulk',
-        'majruszsdifficulty:enderium'
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_6_${armorType}`, `${set}_${armorType}`)
@@ -214,6 +214,7 @@ function itemTags(e) {
     })
     let tier7Sets = [
         'plentyofarmors:stardusite',
+        'majruszsdifficulty:enderium'
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_7_${armorType}`, `${set}_${armorType}`)
@@ -228,15 +229,29 @@ function itemTags(e) {
             e.add(`enrichment2:tier_8_${armorType}`, `${set}_${armorType}`)
         })
     })
+
     // helmets
     e.add(`enrichment2:tier_1_helmet`, `vanityslots:familiar_wig`)
     e.add(`enrichment2:tier_1_helmet`, `snowdownessentails:leather_hat`)
+    e.add(`enrichment2:tier_1_helmet`, `enva:glasses`)
+    e.add(`enrichment2:tier_1_helmet`, `iceandfire:blindfold`)
+    e.add(`enrichment2:tier_1_helmet`, `iceandfire:earplugs`)
+    e.add(`enrichment2:tier_1_helmet`, `overweight_farming:straw_hat`)
 
     e.add(`enrichment2:tier_2_helmet`, `snowdownessentails:iron_hat`)
     e.add(`enrichment2:tier_2_helmet`, `snowdownessentails:gold_hat`)
+    e.add(`enrichment2:tier_2_helmet`, `enva:glass_helmet`)
+    e.add(`enrichment2:tier_2_helmet`, `malum:soul_hunter_cloak`)
+    e.add(`enrichment2:tier_2_helmet`, `mininghelmet:mining_helmet`)
+    e.add(`enrichment2:tier_2_helmet`, `create:copper_diving_helmet`)
     
     e.add(`enrichment2:tier_3_helmet`, `ad_astra:space_helmet`)
     e.add(`enrichment2:tier_3_helmet`, `armoroftheages:japanese_light_armor_head`)
+    e.add(`enrichment2:tier_3_helmet`, `enva:titanium_coated_glass_helmet`)
+    e.add(`enrichment2:tier_3_helmet`, `enva:titanium_coated_water_glass_bowl`)
+    e.add(`enrichment2:tier_3_helmet`, `friendsandfoes:wildfire_crown`)
+    e.add(`enrichment2:tier_3_helmet`, `knightquest:chainmail_helmet`)
+    e.add(`enrichment2:tier_3_helmet`, `knightquest:chainmail_helmet2`)
     
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:quetzalcoatl_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:centurion_armor_head`)
@@ -248,11 +263,26 @@ function itemTags(e) {
     e.add(`enrichment2:tier_5_helmet`, `armoroftheages:anubis_armor_head`)
     e.add(`enrichment2:tier_5_helmet`, `ad_astra:netherite_space_helmet`)
     e.add(`enrichment2:tier_5_helmet`, `snowdownessentails:netherite_hat`)
+    e.add(`enrichment2:tier_5_helmet`, `create:netherite_diving_helmet`)
+    e.add(`enrichment2:tier_5_helmet`, `knightquest:zombie_helmet2`)
     
     e.add(`enrichment2:tier_6_helmet`, `armoroftheages:raijin_armor_head`)
+    e.add(`enrichment2:tier_6_helmet`, `aquamirae:abyssal_heaume`)
+    e.add(`enrichment2:tier_6_helmet`, `aquamirae:abyssal_tiara`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:tengu_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:pirate2_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:pirate3_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:conquistador2_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:conquistador3_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:skulk2_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:skulk3_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:skulk4_helmet`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:husk_helmet2`)
+    e.add(`enrichment2:tier_6_helmet`, `knightquest:husk_helmet3`)
 
     e.add(`enrichment2:tier_7_helmet`, `armoroftheages:holy_armor_head`)
     e.add(`enrichment2:tier_7_helmet`, `ad_astra:jet_suit_helmet`)
+    e.add(`enrichment2:tier_7_helmet`, `aquamirae:three_bolt_helmet`)
 
     // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
@@ -275,6 +305,7 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:pharaoh_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:iron_plate_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `snowdownessentails:diamond_chest_belt`)
+    e.add(`enrichment2:tier_4_chestplate`, `aquamirae:three_bolt_suit`)
 
     e.add(`enrichment2:tier_5_chestplate`, `armoroftheages:anubis_armor_chest`)
     e.add(`enrichment2:tier_5_chestplate`, `ad_astra:netherite_space_suit`)
@@ -282,6 +313,7 @@ function itemTags(e) {
     e.add(`enrichment2:tier_5_chestplate`, `snowdownessentails:netherite_chest_belt`)
     
     e.add(`enrichment2:tier_6_chestplate`, `armoroftheages:raijin_armor_chest`)
+    e.add(`enrichment2:tier_6_chestplate`, `aquamirae:abyssal_brigantine`)
 
     e.add(`enrichment2:tier_7_chestplate`, `armoroftheages:holy_armor_chest`)
     e.add(`enrichment2:tier_7_chestplate`, `ad_astra:jet_suit`)
@@ -292,6 +324,7 @@ function itemTags(e) {
 
     e.add(`enrichment2:tier_2_leggings`, `snowdownessentails:iron_belt`)
     e.add(`enrichment2:tier_2_leggings`, `snowdownessentails:gold_belt`)
+    e.add(`enrichment2:tier_2_leggings`, `malum:soul_hunter_leggings`)
 
     e.add(`enrichment2:tier_3_leggings`, `ad_astra:space_pants`)
     e.add(`enrichment2:tier_3_leggings`, `armoroftheages:japanese_light_armor_legs`)
@@ -302,12 +335,14 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:pharaoh_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:iron_plate_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `snowdownessentails:diamond_belt`)
+    e.add(`enrichment2:tier_4_leggings`, `aquamirae:three_bolt_leggings`)
 
     e.add(`enrichment2:tier_5_leggings`, `armoroftheages:anubis_armor_legs`)
     e.add(`enrichment2:tier_5_leggings`, `ad_astra:netherite_space_pants`)
     e.add(`enrichment2:tier_5_leggings`, `snowdownessentails:netherite_belt`)
     
     e.add(`enrichment2:tier_6_leggings`, `armoroftheages:raijin_armor_legs`)
+    e.add(`enrichment2:tier_6_leggings`, `aquamirae:abyssal_leggings`)
 
     e.add(`enrichment2:tier_7_leggings`, `armoroftheages:holy_armor_legs`)
     e.add(`enrichment2:tier_7_leggings`, `ad_astra:jet_suit_pants`)
@@ -318,6 +353,8 @@ function itemTags(e) {
 
     e.add(`enrichment2:tier_2_boots`, `snowdownessentails:iron_boots`)
     e.add(`enrichment2:tier_2_boots`, `snowdownessentails:gold_boots`)
+    e.add(`enrichment2:tier_2_boots`, `create:copper_diving_boots`)
+    e.add(`enrichment2:tier_2_boots`, `malum:soul_hunter_boots`)
     
     e.add(`enrichment2:tier_3_boots`, `ad_astra:space_boots`)
     e.add(`enrichment2:tier_3_boots`, `armoroftheages:japanese_light_armor_feet`)
@@ -328,12 +365,15 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:pharaoh_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:iron_plate_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `snowdownessentails:diamond_boots`)
+    e.add(`enrichment2:tier_4_boots`, `aquamirae:three_bolt_boots`)
 
     e.add(`enrichment2:tier_5_boots`, `armoroftheages:anubis_armor_feet`)
     e.add(`enrichment2:tier_5_boots`, `ad_astra:netherite_space_boots`)
     e.add(`enrichment2:tier_5_boots`, `snowdownessentails:netherite_boots`)
+    e.add(`enrichment2:tier_5_boots`, `create:netherite_diving_boots`)
     
     e.add(`enrichment2:tier_6_boots`, `armoroftheages:raijin_armor_feet`)
+    e.add(`enrichment2:tier_6_boots`, `aquamirae:abyssal_boots`)
 
     e.add(`enrichment2:tier_7_boots`, `armoroftheages:holy_armor_feet`)
     e.add(`enrichment2:tier_7_boots`, `ad_astra:jet_suit_boots`)
