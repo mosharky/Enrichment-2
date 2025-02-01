@@ -128,6 +128,7 @@ mode = "fancy"
 				cave_enderman = true
 				snowy_enderman = true
 				dark_oak_enderman = true
+				soulsand_valley_enderman = true
 				crimson_pearl = true
 				scarab = true
 				end_islands_enderman = true
