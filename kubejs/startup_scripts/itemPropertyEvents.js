@@ -49,7 +49,7 @@ ItemEvents.modification(event => {
         'minecraft:beacon',
         'minecraft:heart_of_the_sea',
         'minecraft:conduit',
-        'minecraft:heartstone',
+        'heartstone:heartstone',
         'guardianexpansion:prismarine_converter',
         'amethyst_imbuement:golden_heart',
         'amethyst_imbuement:spellcasters_focus',
