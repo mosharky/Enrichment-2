@@ -119,8 +119,8 @@ function itemTags(e) {
         })
     })
     let tier5Sets = [
+        'minecraft:netherite',
         'betternether:flaming_ruby',
-        'betterend:crystalite',
         'iceandfire:tide_blue',
         'iceandfire:tide_bronze',
         'iceandfire:tide_deepblue',
@@ -145,9 +145,38 @@ function itemTags(e) {
         'knightquest:witch',
         'knightquest:polar',
         'knightquest:shinobi',
+        'fantasy_armor:eclipse_soldier',
+        'fantasy_armor:dragonslayer',
+        'fantasy_armor:hero',
+        'fantasy_armor:golden_horns',
+        'fantasy_armor:thief',
+        'fantasy_armor:wandering_wizard',
+        'fantasy_armor:chess_board_knight',
+        'fantasy_armor:dark_lord',
+        'fantasy_armor:sunset_wings',
+        'fantasy_armor:fog_guard',
+        'fantasy_armor:dark_cover',
+        'fantasy_armor:spark_of_dawn',
+        'fantasy_armor:golden_execution',
+        'fantasy_armor:forgotten_trace',
+        'fantasy_armor:redeemer',
+        'fantasy_armor:twinned',
+        'fantasy_armor:gilded',
+        'fantasy_armor:lady_maria',
+        'fantasy_armor:crucible_knight',
+        'fantasy_armor:evening_ghost',
+        'fantasy_armor:ronin',
     ].forEach(set => {
         global.armorTypes.forEach(armorType => {
             e.add(`enrichment2:tier_5_${armorType}`, `${set}_${armorType}`)
+        })
+    })
+    let tier6Sets = [
+        'betterend:crystalite',
+        'botania:terrasteel'
+    ].forEach(set => {
+        global.armorTypes.forEach(armorType => {
+            e.add(`enrichment2:tier_6_${armorType}`, `${set}_${armorType}`)
         })
     })
     // helmets
@@ -164,7 +193,11 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:centurion_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:o_yoroi_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `armoroftheages:pharaoh_armor_head`)
+    e.add(`enrichment2:tier_4_helmet`, `armoroftheages:iron_plate_armor_head`)
     e.add(`enrichment2:tier_4_helmet`, `snowdownessentails:diamond_hat`)
+
+    e.add(`enrichment2:tier_5_helmet`, `armoroftheages:anubis_armor_head`)
+    e.add(`enrichment2:tier_5_helmet`, `ad_astra:netherite_space_helmet`)
 
     // chestplates
     e.add(`enrichment2:tier_1_chestplate`, `vanityslots:familiar_shirt`)
@@ -185,7 +218,12 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:centurion_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:o_yoroi_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:pharaoh_armor_chest`)
+    e.add(`enrichment2:tier_4_chestplate`, `armoroftheages:iron_plate_armor_chest`)
     e.add(`enrichment2:tier_4_chestplate`, `snowdownessentails:diamond_chest_belt`)
+
+    e.add(`enrichment2:tier_5_chestplate`, `armoroftheages:anubis_armor_chest`)
+    e.add(`enrichment2:tier_5_chestplate`, `ad_astra:netherite_space_suit`)
+    e.add(`enrichment2:tier_5_chestplate`, `create:netherite_backtank`)
 
     // leggings
     e.add(`enrichment2:tier_1_leggings`, `vanityslots:familiar_pants`)
@@ -201,7 +239,11 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:centurion_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:o_yoroi_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `armoroftheages:pharaoh_armor_legs`)
+    e.add(`enrichment2:tier_4_leggings`, `armoroftheages:iron_plate_armor_legs`)
     e.add(`enrichment2:tier_4_leggings`, `snowdownessentails:diamond_belt`)
+
+    e.add(`enrichment2:tier_5_leggings`, `armoroftheages:anubis_armor_legs`)
+    e.add(`enrichment2:tier_5_leggings`, `ad_astra:netherite_space_pants`)
 
     // boots
     e.add(`enrichment2:tier_1_boots`, `vanityslots:familiar_sneakers`)
@@ -217,7 +259,11 @@ function itemTags(e) {
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:centurion_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:o_yoroi_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `armoroftheages:pharaoh_armor_feet`)
+    e.add(`enrichment2:tier_4_boots`, `armoroftheages:iron_plate_armor_feet`)
     e.add(`enrichment2:tier_4_boots`, `snowdownessentails:diamond_boots`)
+
+    e.add(`enrichment2:tier_5_boots`, `armoroftheages:anubis_armor_feet`)
+    e.add(`enrichment2:tier_5_boots`, `ad_astra:netherite_space_boots`)
 
     e.remove('c:iron_ingots', ['betterend:thallasium_ingot', 'betternether:cincinnasite_ingot'])
 }
