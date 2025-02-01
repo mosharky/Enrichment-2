@@ -122,6 +122,7 @@ mode = "fancy"
 				dark_oak_enderman = true
 				scarab = true
 				end_islands_enderman = true
+				swamp_enderman = true
 				badlands_enderman = true
 
 			[light_sources.settings.entities.underground_jungle]
@@ -166,6 +167,7 @@ mode = "fancy"
 				rhino = true
 				bluejay = true
 				snake = true
+				catfish = true
 				robin = true
 				boar = true
 				dragonfly = true
@@ -294,6 +296,7 @@ mode = "fancy"
 				deathworm = true
 				multipart = true
 				amphithere = true
+				hydra_breath = true
 				lightning_dragon_charge = true
 				myrmex_worker = true
 

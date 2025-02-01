@@ -320,6 +320,10 @@
       "factor": 5
     },
     {
+      "structure": "iceandfire:hydra_cave",
+      "factor": 5
+    },
+    {
       "structure": "iceandfire:pixie_village",
       "factor": 10
     },
