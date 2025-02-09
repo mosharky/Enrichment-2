@@ -52,3 +52,6 @@ shaderpacks/
 texturepacks/
 Xaero*/
 xaero*/
+config/xaerominimap_entities.json
+config/spark/activity.json
+config/lambdynlights.toml
