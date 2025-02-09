@@ -1,6 +1,8 @@
 // array of all items to fully remove (recipes, tags, REI)
 // accepts string or regex
 global.fullRemovals = [
+    // testing access to push
+
     /spelunkery:.*rock_salt.*/,
     'spelunkery:salt_lamp',
     /hearth_and_home:.*chimney/,
@@ -23,5 +25,6 @@ global.fullRemovals = [
     'galosphere:deepslate_silver_ore',
     /(galosphere|iceandfire):silver_(ingot|nugget|block|ore)/,
 
-    /amethystgravity:gravity_anchor_(north|south|west|east|up|down)/
+    /amethystgravity:gravity_anchor_(north|south|west|east|up|down)/,
+    /qu-enchantments:rune_*/
 ]
