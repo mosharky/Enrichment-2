@@ -8,7 +8,12 @@ function replacements(e) {
     let ironToCopperRecipeItems = [
         'minecraft:piston',
         'minecraft:compass',
-        'minecraft:powered_rail'
+        'minecraft:powered_rail',
+        'xtraarrows:magnet_kit',
+        'twilightforest:fiery_ingot',
+        'malum:cornered_weave',
+        'galosphere:chandelier',
+        'ae2:crystal_resonance_generator'
     ].forEach((item) => {
         e.replaceInput({ output: item }, 'minecraft:iron_ingot', 'minecraft:copper_ingot')
     })

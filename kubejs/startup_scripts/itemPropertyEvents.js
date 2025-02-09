@@ -10,6 +10,7 @@ ItemEvents.modification(event => {
     })
 
     const newPearls = [
+        'minecraft:ender_pearl',
         'endermanoverhaul:corrupted_pearl',
         'endermanoverhaul:soul_pearl',
         'endermanoverhaul:ancient_pearl',
@@ -37,7 +38,7 @@ ItemEvents.modification(event => {
         'xtraarrows:netherite_vexing_arrow',
     ].forEach(arrow => {
         event.modify(arrow, item => {
-            item.maxStackSize = 48
+            item.maxStackSize = 16
         }) 
     })
 
