@@ -320,6 +320,10 @@
       "factor": 5
     },
     {
+      "structure": "iceandfire:mausoleum",
+      "factor": 5
+    },
+    {
       "structure": "ati_structures:deepslate_keep",
       "factor": 10
     },
