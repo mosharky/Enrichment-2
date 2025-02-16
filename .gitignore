@@ -58,3 +58,4 @@ config/lambdynlights.toml
 config/fastload.properties
 config/xaerominimap_entities.json
 config/auto-updater/updater_list.json
+emi.json

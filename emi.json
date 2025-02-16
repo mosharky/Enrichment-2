@@ -1,6 +1,9 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:soaring_winds\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:penetrating_strike\",lvl:1s}]}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:tunneling\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"create:potato_recovery\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"create:capacity\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"create:capacity\",lvl:3s}]}",
@@ -12,8 +15,6 @@
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:2s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:1s}]}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:soaring_winds\",lvl:1s}]}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:penetrating_strike\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"amethyst_update:shattered\",lvl:2s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"azurelib:incendiaryenchantment\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"elementalenchantments:earth_aspect\",lvl:1s}]}",
