@@ -24,3 +24,10 @@ global.fullRemovals = [
     /(galosphere|iceandfire):silver_(ingot|nugget|block|ore)/,
     /qu-enchantments:rune_*/
 ]
+
+global.armorTypes = [
+    'helmet',
+    'chestplate',
+    'leggings',
+    'boots'
+]

@@ -138,9 +138,9 @@
 			"asyncSearchPartitionSize": 100,
 			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
-			"tagSearch": "PREFIX",
+			"tagSearch": "ALWAYS",
 			"identifierSearch": "ALWAYS",
-			"modSearch": "PREFIX"
+			"modSearch": "ALWAYS"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.
@@ -249,6 +249,8 @@
 					"ad_astra:nasa_workbench",
 					"roughlyenoughitems:plugins/information",
 					"minecraft:plugins/tag",
+					"things:broken_watch",
+					"mythic_charms:resonance_infusing",
 					"rei-enchantment-info:rei_display_category"
 				],
 				"hiddenCategories": []
