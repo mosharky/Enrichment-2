@@ -1,6 +1,12 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:smallships:sail",
+    "item:smallships:charm_azalea_drakkar",
+    "item:smallships:charm_azalea_galley",
+    "item:smallships:charm_azalea_brigg",
+    "item:smallships:charm_azalea_cog",
+    "item:smallships:cannon",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:soaring_winds\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:penetrating_strike\",lvl:1s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"betterarcheology:tunneling\",lvl:1s}]}",

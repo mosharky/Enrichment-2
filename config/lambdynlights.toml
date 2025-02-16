@@ -155,6 +155,9 @@ mode = "fancy"
 				illusioner = true
 				tank = true
 
+			[light_sources.settings.entities.smallships]
+				cog = true
+
 			[light_sources.settings.entities.ribbits]
 				ribbit = true
 
