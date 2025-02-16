@@ -28,3 +28,10 @@ global.fullRemovals = [
     /amethystgravity:gravity_anchor_(north|south|west|east|up|down)/,
     /qu-enchantments:rune_*/
 ]
+
+global.armorTypes = [
+    'helmet',
+    'chestplate',
+    'leggings',
+    'boots'
+]

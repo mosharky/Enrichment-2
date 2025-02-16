@@ -2,6 +2,7 @@
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "types": {
     "cake": {
+      "mint.velvet_cake": true,
       "bountifulfares.cocoa_cake": true,
       "createaddition.chocolate_cake": true,
       "createaddition.honey_cake": true,
@@ -32,6 +33,8 @@
       "ecologics.azalea": true,
       "ecologics.coconut": true,
       "ecologics.walnut": true,
+      "mint.wintergreen": true,
+      "mint.madder": true,
       "ad_astra.aeronos": true,
       "ad_astra.strophar": true,
       "ad_astra.glacian": true,
@@ -140,6 +143,9 @@
       "twilightforest.transformation": true,
       "twilightforest.mining": true,
       "twilightforest.sorting": true,
+      "mint.wintergreen": true,
+      "mint.peach": true,
+      "mint.flowering_peach": true,
       "betternether.willow": true,
       "betternether.rubeus": true,
       "betternether.anchor_tree": true,

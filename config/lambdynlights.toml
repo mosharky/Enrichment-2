@@ -1,0 +1,170 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
+				chicken = true
+				axolotl = true
+				bee = true
+				donkey = true
+				cow = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pig = true
+				skeleton = true
+				iron_golem = true
+				bat = true
+				frog = true
+				husk = true
+				rabbit = true
+				cat = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				player = true
+				pufferfish = true
+				dolphin = true
+				item = true
+				stray = true
+				turtle = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				salmon = true
+				tnt_minecart = true
+				zombie_villager = true
+				furnace_minecart = true
+				item_frame = true
+				horse = true
+				phantom = true
+				minecart = true
+				cave_spider = true
+				glow_squid = true
+				witch = true
+				cod = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.crittersandcompanions]
+				dragonfly = true
+				leaf_insect = true
+				koi_fish = true
+				dumbo_octopus = true
+				sea_bunny = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
+				snowy_enderman = true
+				swamp_enderman = true
+				badlands_enderman = true
+
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_enderman = true
+				mutant_creeper = true
+				mutant_skeleton = true
+				mutant_zombie = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				swamp_creeper = true
+				snowy_creeper = true
+				bamboo_creeper = true
+				ocean_creeper = true
+				dripstone_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+
+			[light_sources.settings.entities.knightquest]
+				ratman = true
+				eldknight = true
+				ghosty = true
+				swampman = true
+				eldbomb = true
+				lizzy = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.iceandfire]
+				pixie = true
+				ice_dragon = true
+				lightning_dragon = true
+				hippocampus = true
+				hippogryph = true
+				troll = true
+				dragon_multipart = true
+				fire_dragon = true
+
+			[light_sources.settings.entities.hamsters]
+				hamster = true
+
+			[light_sources.settings.entities.naturalist]
+				deer = true
+				snail = true
+				alligator = true
+				bluejay = true
+				coral_snake = true
+				snake = true
+				cardinal = true
+				vulture = true
+				catfish = true
+				boar = true
+				robin = true
+				bass = true
+				tortoise = true
+				butterfly = true
+				duck = true
+				bear = true
+				sparrow = true
+				lizard = true
+				finch = true
+
+			[light_sources.settings.entities.majruszsdifficulty]
+				illusioner = true
+				tank = true
+
+			[light_sources.settings.entities.ribbits]
+				ribbit = true
+
+			[light_sources.settings.entities.ecologics]
+				squirrel = true
+				penguin = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				copper_golem = true
+				glare = true
+				mauler = true
+				crab = true
+				rascal = true
+
+			[light_sources.settings.entities.dungeonnowloading]
+				spawner_carrier = true
+				chaos_spawner = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+

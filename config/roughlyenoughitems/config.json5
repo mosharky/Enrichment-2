@@ -138,9 +138,9 @@
 			"asyncSearchPartitionSize": 100,
 			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
-			"tagSearch": "PREFIX",
+			"tagSearch": "ALWAYS",
 			"identifierSearch": "ALWAYS",
-			"modSearch": "PREFIX"
+			"modSearch": "ALWAYS"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.
@@ -250,7 +250,10 @@
 					"roughlyenoughitems:plugins/information",
 					"minecraft:plugins/tag",
 					"amethyst_imbuement:imbuing_recipe",
-					"amethyst_imbuement:altar_recipe"
+					"amethyst_imbuement:altar_recipe",
+					"things:broken_watch",
+					"mythic_charms:resonance_infusing",
+					"rei-enchantment-info:rei_display_category"
 				],
 				"hiddenCategories": []
 			}

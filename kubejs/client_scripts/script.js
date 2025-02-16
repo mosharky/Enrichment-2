@@ -16,5 +16,5 @@ REIEvents.removeCategories(e => {
 
 
 ItemEvents.tooltip(e => {
-    e.add(global.fullRemovals, Text.red('DISABLED. Report to a developer if this item is encountered.').bold())
+    e.add(global.fullRemovals, Text.red('DISABLED. Report to the Modpack developer if this item is encountered.').bold())
 })
