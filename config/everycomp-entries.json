@@ -1,14 +1,6 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "types": {
-    "cake": {
-      "mint.velvet_cake": true,
-      "bountifulfares.cocoa_cake": true,
-      "createaddition.chocolate_cake": true,
-      "createaddition.honey_cake": true,
-      "farmersrespite.coffee_cake": true,
-      "natures_spirit.cheese_block": true
-    },
     "wood_type": {
       "betterend.end_lotus": true,
       "betterend.jellyshroom": true,
