@@ -250,7 +250,8 @@
 					"roughlyenoughitems:plugins/information",
 					"minecraft:plugins/tag",
 					"things:broken_watch",
-					"mythic_charms:resonance_infusing"
+					"mythic_charms:resonance_infusing",
+					"rei-enchantment-info:rei_display_category"
 				],
 				"hiddenCategories": []
 			}
