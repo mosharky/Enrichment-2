@@ -400,4 +400,20 @@ function fullRemovalTags(e) {
 /** @param {TagEvent.Block} e */
 function blockTags(e) {
     e.add('spelunkery:salt_blocks', /galosphere:.*pink_salt.*/)
+
+    let newBeaconBaseBlocks = [
+        "create:andesite_alloy_block",
+        "betternether:cincinnasite_forged",
+        "create:industrial_iron_block",
+        "createaddition:electrum_block",
+        "iceandfire:dragonsteel_fire_block",
+        "iceandfire:dragonsteel_ice_block",
+        "iceandfire:dragonsteel_lightning_block",
+        "ae2:quartz_block",
+        "galosphere:allurite_block",
+        "galosphere:lumiere_block",
+        "galosphere:pink_salt"
+    ].forEach((item) => {
+        e.add('minecraft:beacon_base_blocks', item)
+    })
 }
