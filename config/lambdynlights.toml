@@ -25,6 +25,7 @@ mode = "fancy"
 				zombie_horse = true
 				axolotl = true
 				bee = true
+				arrow = true
 				cow = true
 				pig = true
 				skeleton = true
@@ -77,8 +78,10 @@ mode = "fancy"
 			[light_sources.settings.entities.crittersandcompanions]
 				dragonfly = true
 				leaf_insect = true
+				shima_enaga = true
 				koi_fish = true
 				dumbo_octopus = true
+				ferret = true
 				otter = true
 				sea_bunny = true
 
