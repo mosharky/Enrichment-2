@@ -1,0 +1,177 @@
+{
+  "galosphere:lichen_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "galosphere:pink_salt_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "minecraft:dripstone_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:amethyst_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:arid_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:black_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:dirt_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:floral_lush_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:frozen_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:molten_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:mushroom_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "profundis:sparse_lush_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "regions_unexplored:bioshroom_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "regions_unexplored:redstone_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "regions_unexplored:scorching_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "spider_caves:spider_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "yungscavebiomes:frosted_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 1,
+    "maxCount": 4,
+    "spawnWeight": 8,
+    "canSpawnHere": true
+  },
+  "betterend:empty_aurora_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "betterend:empty_end_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "betterend:empty_smaragdant_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "betterend:jade_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "betterend:lush_aurora_cave": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "yungscavebiomes:lost_smaragdant_caves": {
+    "mobCategory": "MONSTER",
+    "minCount": 0,
+    "maxCount": 1,
+    "spawnWeight": 1,
+    "canSpawnHere": true
+  },
+  "minecraft:deep_dark": {
+    "mobCategory": "MONSTER",
+    "minCount": 2,
+    "maxCount": 7,
+    "spawnWeight": 15,
+    "canSpawnHere": true
+  }
+}
