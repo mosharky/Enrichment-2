@@ -1,6 +1,13 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:iceandfire:dragonsteel_ice_ingot",
+    "item:iceandfire:dragonsteel_ice_helmet{Damage:0}",
+    "item:iceandfire:dragonsteel_lightning_ingot",
+    "item:iceandfire:dragonsteel_lightning_helmet{Damage:0}",
+    "item:iceandfire:dragonsteel_fire_helmet{Damage:0}",
+    "item:fantasy_armor:moon_crystal",
+    "item:fantasy_armor:silver_knight_helmet{Damage:0}",
     "item:smallships:sail",
     "item:smallships:charm_azalea_drakkar",
     "item:smallships:charm_azalea_galley",

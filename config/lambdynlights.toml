@@ -70,6 +70,7 @@ mode = "fancy"
 				skeleton_horse = true
 				tnt_minecart = true
 				zombie_villager = true
+				polar_bear = true
 				cave_spider = true
 				witch = true
 				cod = true
